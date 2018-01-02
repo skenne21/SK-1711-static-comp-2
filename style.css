@@ -1,0 +1,411 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+* {
+  font-family:  'Cormorant Garamond', serif;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #909E63
+}
+
+nav {
+  position: absolute;
+  bottom: 10px;
+  left: 7px;
+}
+
+nav a  {
+  margin-left: 10px;
+  color: #849870;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+a i {
+  margin: 10px;
+}
+
+span {
+  margin: 2px;
+}
+
+
+.main-header{
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background-color: #3E5B10;
+}
+
+.main-section {
+  height: 100vh;
+  margin: auto;
+}
+
+.page-header {
+  padding-top: 30px;
+  padding-left: 20px;
+  font-family: 'Tangerine', cursive;
+  font-size: 3em;  
+}
+
+.logo-text {
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  color: #849870;
+  font-size: 4em;
+}
+
+.pink-text {
+  color: #A48C73;
+}
+
+.main-header h3 {
+  margin-right: 20px;
+  color: #849870;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+.logo {
+  display: inline-block;
+  width: 75px;
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+}
+
+.card-1 {
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(photos/angleica.jpg);
+  background-size: cover;
+}
+
+.card-1:hover {
+  background-image: url(photos/angleica.jpg);
+  background-size: cover;
+
+}
+
+.card .card-body:hover {
+  background-color: #cee091b8;
+  
+}
+
+.card .attachment-box:hover {
+  background-color: #a7a764b5;
+}
+
+.card-2 {
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(photos/flower-2.jpg);
+  background-size: cover;
+}
+
+.card-2:hover {
+  background-image: url(photos/flower-2.jpg);
+  background-size: cover;
+}
+
+.card-3 {
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(photos/hops.jpg);
+  background-size: cover;
+}
+
+.card-3:hover {
+  background-image: url(photos/hops.jpg);
+  background-size: cover;
+}
+
+.card-4 {
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(photos/pinecone.jpg);
+  background-size: cover;
+
+}
+
+.card-4:hover {
+  background-image: url(photos/pinecone.jpg);
+  background-size: cover;
+}
+
+.card-5 {
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(photos/card-1.jpg);
+  background-size: cover;
+}
+
+.card-5:hover {
+  background-image: url(photos/card-1.jpg);
+  background-size: cover;
+}
+
+.card-6 {
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(photos/card-5.jpg);
+  background-size: cover;
+}
+
+.card-6:hover {
+  background-image: url(photos/card-5.jpg);
+  background-size: cover;
+}
+
+.card-7 {
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(photos/card-3.jpg);
+  background-size: cover;
+}
+
+.card-7:hover {
+  background-image: url(photos/card-3.jpg);
+  background-size: cover;
+}
+
+.card-8 {
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(photos/card-2.jpg);
+  background-size: cover;
+}
+
+.card-8:hover {
+  background-image: url(photos/card-2.jpg);
+  background-size: cover;
+}
+
+.card {
+  border: 3px solid #3B7311;
+  box-shadow: 10px 10px 5px -6px black;
+  height: 450px; 
+  width: 320px;
+  margin: 20px;
+}
+
+.card-header {
+  height: 150px;
+  margin: 0;
+  text-align: right;
+}
+
+.card-body {
+  height: 260px;
+  background-color: #909e62b8;
+}
+
+.card-header h3 {
+  position: relative;
+  top: -15px;
+  right: 25px;
+  display: inline-block;
+  font-size: 2em;
+}
+
+.card-header p {
+  position: relative;
+  top: -35px;
+  right: 45px;
+  font-size: 1.7em;
+}
+
+.card-body p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.card-body h3  {
+  padding-left: 10px;
+}
+
+.text-box {
+  position: relative;
+  top: 10px;
+  left: 12px;
+}
+
+.attachment-box {
+  position: relative;
+  top: 10px;
+  height: 120px;
+  width: 93%;
+  margin: auto;
+  background-color: #AFAF66;
+}
+
+.medium-text {
+  padding: 7px;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.large-text {
+  font-weight: 700;
+}
+
+#med {
+  margin: 2px;
+}
+
+#leaf {
+  position: relative;
+  left: -166px;
+  top: 10px;
+  display: inline-block;
+  font-size: 4em;
+}
+
+#arrow {
+  font-size: 0.8em;
+}
+
+@media screen and (min-width: 1900px) {
+  .main-section {
+    margin: 0 auto;
+    max-width: 1750px;
+  }
+
+  .card-section {
+    justify-content: center;
+  }
+
+  .page-header {
+    position: relative;
+    right: 55px;
+    padding-left: 0;
+    font-size: 4em;
+  }
+} 
+
+@media screen and (max-width: 1700px) {
+  .page-header {
+    position: relative;
+    left: 10px;
+
+    
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .card {
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .card {
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav a {
+    display: inherit;
+    margin-bottom: 12px;
+    margin-left: 5px;
+  }
+
+  .main-header {
+    height: 175px;
+  }
+
+  .main-header h3 {
+    position: relative;
+    top: 10px;
+  }
+
+  .logo-text {
+    position: absolute;
+    right: 25px;
+    top: 45px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page-header {
+    position: relative;
+    left: 0;
+    padding-left: 0;
+    font-size: 4em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-header {
+    height: 200px;
+  }
+
+  .main-header h3 {
+    margin-left: 20px;
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .logo-text {
+    position: absolute;
+    right: 15px;
+    top: 90px;
+    font-size: 3em;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  nav a {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  nav {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+  }
+  .page-header {
+    font-size: 2.5em;
+
+  }
+
+  .main-header h3 {
+    margin-left: 15px;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .logo-text {
+    position: absolute;
+    right: 5px;
+    top: 105px;
+  }
+}
